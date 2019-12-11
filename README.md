@@ -5,6 +5,8 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 [A drafty preliminary sample of the graph here](https://github.com/pmartinolli/OtSoCG/blob/master/Rplot.pdf)
 
+![https://f.hypotheses.org/wp-content/blogs.dir/3179/files/2019/12/OtSoCG-img-500x333.png](https://github.com/pmartinolli/OtSoCG/blob/master/Rplot.pdf)
+
 The project is [explained here]() (explication du projet [en français ici](https://jdr.hypotheses.org/1163)).
 
 
