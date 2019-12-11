@@ -30,7 +30,7 @@ The project is [explained here]() (explication du projet [en français ici](http
 
 * Caroline Patenaude for a primer workshop on R Studio.
 * The authors R, of R Studio and of the packages `WikidataQueryServiceR` and `igraph`.
-* Michael Hahsler for the function `map`.
+* [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) for the function `map`.
 
 
 ### This content is CC-BY-NC-SA 4.0 
