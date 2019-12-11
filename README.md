@@ -1,5 +1,4 @@
-# OtSoCG
-**On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing industry**
+# On the Shoulders of Cloud Giants: Citation Practices in the Tabletop Role-Playing Game Publishing Industry
 
 Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974.
 
