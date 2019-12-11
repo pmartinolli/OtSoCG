@@ -1,11 +1,53 @@
+
+######################################################
+# Part 1 : Retrieve the data
+######################################################
+
+
+# Retrieve the data from Wikidata through SPARQL query and put in a variable named : ttrpg
+
+library(WikidataQueryServiceR)
+
+ttrpg <- query_wikidata('SELECT DISTINCT ?itemLabel ?cited_worksLabel 
+WHERE
+{
+    {
+      {?item wdt:P31 wd:Q1643932} 
+      UNION 
+      {?item wdt:P31 wd:Q2164067}
+      UNION
+      {?item wdt:P31 wd:Q71631512}
+      UNION
+      {?item wdt:P31 wd:Q4418079}      
+    }. # instance = TTRPG or TTRPG system or supplement or setting
+    ?item  wdt:P2860    ?cited_works. # which cites works
+    {
+      {?cited_works wdt:P31 wd:Q1643932}
+      UNION 
+      {?cited_works wdt:P31 wd:Q2164067}
+      UNION
+      {?cited_works wdt:P31 wd:Q71631512}
+      UNION
+      {?cited_works wdt:P31 wd:Q4418079} 
+    }. # that are TTRPG or TTRPG system or supplement or setting  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?item ?cited_works')
+
+
+
+######################################################
+# Part 2 : Draw a graph
+######################################################
+
+# Draw a graph from the variable : ttrpg
+
 library(igraph)
 
 net <- graph_from_data_frame(d=ttrpg, directed=T) 
 
 
-# https://kateto.net/network-visualization
-
-#https://michael.hahsler.net/SMU/ScientificCompR/code/map.R
+# Use a function to weight each node with the number of cited works, from https://michael.hahsler.net/SMU/ScientificCompR/code/map.R
 map <- function(x, range = c(0,1), from.range=NA) {
   if(any(is.na(from.range))) from.range <- range(x, na.rm=TRUE)
   
@@ -30,6 +72,9 @@ map <- function(x, range = c(0,1), from.range=NA) {
 }
 
 
+
+# Draw the graph
+
 plot(net, 
      edge.arrow.size = 0.05, 
      vertex.size=map(degree(net),c(1,20)), 
@@ -38,4 +83,4 @@ plot(net,
      vertex.label.family="Helvetica"
      )
 
-# Exporter en PDF taille : Device size = 60x40  
+# Then go to Menu > Plots > Export > Save as PDF : (Device size) = 60 x 40  
