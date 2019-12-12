@@ -27,7 +27,7 @@ The project is [explained here]() (explication du projet [en français ici](http
 
 ## Acknowledgements 
 
-* Caroline Patenaude for a primer workshop on R Studio.
+* Caroline Patenaude, data librarian, for her primer workshops on R Studio.
 * The authors R, of R Studio and of the packages `WikidataQueryServiceR` and `igraph`.
 * [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) for the function `map`.
 
