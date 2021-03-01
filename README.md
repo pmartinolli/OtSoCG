@@ -2,9 +2,15 @@
 
 Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974.
 
-[A drafty preliminary sample of the graph here](https://github.com/pmartinolli/OtSoCG/blob/master/output/Rplot.pdf)
+[A drafty preliminary sample of the graph here](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
 
-[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG-snapshot.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/Rplot.pdf)
+[Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_map.R)
+
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG-snapshot.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
+
+
+
+
 
 The project is [explained here]() (explication du projet [en français ici](https://jdr.hypotheses.org/1163)).
 
