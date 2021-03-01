@@ -14,8 +14,8 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_chorddiagram.R)
 
-[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG_with_chorddiagram.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
-[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG_with_chorddiagram-detail.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram-detail.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
 
 ---
 
@@ -26,7 +26,7 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 This code can be reused with an input any dataframe or table, of any size, structured like : citing | category | cited | category
 A more simple version of the code can be [found here](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_simple.R).
 
-[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG_with_geom_conn_bundle_fancy.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 ---
 
