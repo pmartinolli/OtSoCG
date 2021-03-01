@@ -2,25 +2,44 @@
 
 Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974.
 
-[A drafty preliminary sample of the graph here](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
+[Map graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_map.R)
 
 [![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG-snapshot.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
 
+---
+
+[Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG-chorddiagram.pdf)
+
+[Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_chorddiagram.R)
+
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG-chorddiagram.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG-chorddiagram.pdf)
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG-chorddiagram-detail.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG-chorddiagram.pdf)
+
+---
 
 
+[Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
+
+[Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_fancy.R)
+This code can be reused with an input any dataframe or table, of any size, structured like : citing | category | cited | category
+A more simple version of the code can be [found here](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_simple.R).
+
+[![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/data/OtSoCG-chorddiagram.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
+
+---
 
 
-The project is [explained here]() (explication du projet [en français ici](https://jdr.hypotheses.org/1163)).
+The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20cloud%20giants) (explication du projet [en français ici](https://jdr.hypotheses.org/1163)).
 
 
 ## How to..
 
 ### ... Contribute
 
-* Improve the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID)
-* Help me code in R how to underweight the force of the link if two items have the same publisher or author.
+* Improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID)
+* Improving the code (for beauty, clarity or structure)
 
 ### ... Thank me
 
@@ -35,11 +54,18 @@ The project is [explained here]() (explication du projet [en français ici](http
 
 * Caroline Patenaude, data librarian, for her primer workshops on R Studio.
 * Simon Villeneuve, professor, for introducing me to Wikidata.
-* The authors R, of R Studio and of the packages `WikidataQueryServiceR` and `igraph`.
 * [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) for the function `map`.
+* [Yan Holtz](https://www.yan-holtz.com/) for his https://www.r-graph-gallery.com/hierarchical-edge-bundling.html and https://www.data-to-viz.com/graph/edge_bundling.html
+* Mikhail Popov for his WikidataQueryServiceR package.
+* Hadley et al. for their tidyverse and dplyr packages.
+* Thomas Lin Pedersen for his ggraph package.
+* Gábor Csárdi et al. for their igraph package.
+* Zuguang Gu for his circlize package.
+* Ross Ihaka and Robert Gentleman for the R language.
+* The developers of RStudio and the PDF format.
 
 
-### This content is CC-BY-NC-SA 4.0 
+### This content is CC-BY 4.0 
 
 Informations in the source code are pure facts, therefore they cannot be copyrighted. The curation of these informations, the links between them and the structure of their display are a work of edition. For this reason, I will be glad you aknowledge my name if you want to reuse them.
 
@@ -49,15 +75,13 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Created / Créé le : 2019
 
-* Most recent version / Dernière version : 2019-12-11
+* Most recent version / Dernière version : 2021-03-01
 
 * Original format / format de fichier : R script
 
-* License / Licence : [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+* License / Licence : [CC-BY](https://creativecommons.org/licenses/by/4.0/)
 
-* Presented at, promoted through / Présenté à, diffusé via : 
-
-* Contributors (so far) : .
+* Presented at, promoted through / Présenté à, diffusé via : [Twitter](https://twitter.com/Pascaliensis)
 
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
