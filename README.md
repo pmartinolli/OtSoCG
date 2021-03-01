@@ -54,7 +54,7 @@ The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the
 ## Acknowledgements 
 
 * [Yan Holtz](https://www.yan-holtz.com/) for his https://www.r-graph-gallery.com/hierarchical-edge-bundling.html and https://www.data-to-viz.com/graph/edge_bundling.html
-* [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) for the function `map`.
+* [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) and Sudheer Chelluboina for their function `map`.
 * Mikhail Popov for his `WikidataQueryServiceR` package.
 * Hadley et al. for their `tidyverse` and `dplyr` packages.
 * Thomas Lin Pedersen for his `ggraph` package.
