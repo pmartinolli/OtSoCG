@@ -2,7 +2,7 @@
 
 Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974.
 
-[Map graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
+## [Map graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_map.R)
 
@@ -10,7 +10,7 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 ---
 
-[Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
+## [Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_chorddiagram.R)
 
@@ -19,11 +19,12 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 ---
 
-
-[Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
+# [Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_fancy.R)
+
 This code can be reused with an input any dataframe or table, of any size, structured like : citing | category | cited | category
+
 A more simple version of the code can be [found here](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_simple.R).
 
 [![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
@@ -38,8 +39,8 @@ The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the
 
 ### ... Contribute
 
-* Improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID)
-* Improving the code (for beauty, clarity or structure)
+* Improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID).
+* Improving the code (for beauty, clarity or structure).
 
 ### ... Thank me
 
@@ -52,17 +53,17 @@ The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the
 
 ## Acknowledgements 
 
-* Caroline Patenaude, data librarian, for her primer workshops on R Studio.
-* Simon Villeneuve, professor, for introducing me to Wikidata.
-* [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) for the function `map`.
 * [Yan Holtz](https://www.yan-holtz.com/) for his https://www.r-graph-gallery.com/hierarchical-edge-bundling.html and https://www.data-to-viz.com/graph/edge_bundling.html
-* Mikhail Popov for his WikidataQueryServiceR package.
-* Hadley et al. for their tidyverse and dplyr packages.
-* Thomas Lin Pedersen for his ggraph package.
-* Gábor Csárdi et al. for their igraph package.
-* Zuguang Gu for his circlize package.
+* [Michael Hahsler](https://michael.hahsler.net/SMU/ScientificCompR/code/map.R) for the function `map`.
+* Mikhail Popov for his `WikidataQueryServiceR` package.
+* Hadley et al. for their `tidyverse` and `dplyr` packages.
+* Thomas Lin Pedersen for his `ggraph` package.
+* Gábor Csárdi et al. for their `igraph` package.
+* Zuguang Gu for his `circlize` package.
 * Ross Ihaka and Robert Gentleman for the R language.
 * The developers of RStudio and the PDF format.
+* Caroline Patenaude, data librarian, for her workshops on R Studio.
+* Simon Villeneuve, professor, for introducing me to Wikidata.
 
 
 ### This content is CC-BY 4.0 
