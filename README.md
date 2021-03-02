@@ -30,12 +30,6 @@ A more simple version of the code can be [found here](https://github.com/pmartin
 [![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 ---
-
-# Other data playing 
-
-On this [Google Colab](https://colab.research.google.com/drive/1gb9XBBNy3qniJ-aRlq1r_LtAue0wBNxy?usp=sharing), I am exploring the data I upload on Wikidata and merge it with my own local data on epigraphs and bibliographic items in TTRPG (available in the folder `\data`).
-
----
 # Wikidata
 
 ## SPARQL Queries
@@ -49,8 +43,6 @@ Some guidelines at [WikiProject Board Games](https://www.wikidata.org/wiki/Wikid
 ## Identifiers
 
 In 2019, I asked the creation of the [RPGGeek ID (P7226)](https://www.wikidata.org/wiki/Property:P7226). It would be nice to have an identifier for [LeGrog](http://www.legrog.org/), an awesome French TTRPG database.
-
----
 
 # Local data on TTRPG
 
@@ -68,27 +60,21 @@ Because all Wikidata items aren't indexed with a Publisher property.
 
 List of the Cease & Desist affairs I know of. [Details here](http://zotrpg.blogspot.com/2020/08/cease-desist-orders-and-citation.html). [Détails ici](https://jdr.hypotheses.org/1199). Maybe there is an impact on the citation practices.
 
----
+# About the project
+
+## Data playing
+
+On this [Google Colab](https://colab.research.google.com/drive/1gb9XBBNy3qniJ-aRlq1r_LtAue0wBNxy?usp=sharing), I am exploring and toying with the different sets of data.
+
+## Storytelling the project
 
 The whole project is loosely [explained in my blog](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20cloud%20giants) (explications épisodiques du projet [sur mon blogue en français](https://jdr.hypotheses.org/1163)).
 
----
+## You can contribute
 
-## How to..
-
-### ... Contribute
-
-* Improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID).
-* Improving the code (for beauty, clarity or structure). The specific details to improve each graphs are documented in the R code.
-
-### ... Thank me
-
-- Tweet it [@pascaliensis](https://twitter.com/Pascaliensis).
-- Comment it on your social media.
-- Cite me in your academic work : 
-> Martinolli, Pascal. 2019. « On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing industry. » Dataset and R language code. https://github.com/pmartinolli/OtSoCG
-- Print it and display it in your school, library, exhibition, etc.
-- Send me an email : pascal.umontreal [at] gmail.com
+* By improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID).
+* By improving the code (for beauty, clarity or structure). The specific details to improve each graphs are documented in the R code.
+* By pushing it on your social media [@pascaliensis](https://twitter.com/Pascaliensis).
 
 ## Acknowledgements 
 
@@ -104,8 +90,7 @@ The whole project is loosely [explained in my blog](http://zotrpg.blogspot.com/s
 * Caroline Patenaude, data librarian, for her workshops on R Studio.
 * Simon Villeneuve, professor, for introducing me to Wikidata.
 
-
-### This content is CC-BY 4.0 
+## This content is CC-BY 4.0 
 
 Informations in the source code are pure facts, therefore they cannot be copyrighted. The curation of these informations, the links between them and the structure of their display are a work of edition. For this reason, I will be glad you aknowledge my name if you want to reuse them.
 
@@ -125,7 +110,8 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
-
+* How to cite the project in your academic work : 
+> Martinolli, Pascal. 2019. « On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing industry. » Dataset and R language code. https://github.com/pmartinolli/OtSoCG
 
 \
 \
