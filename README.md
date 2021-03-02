@@ -48,15 +48,15 @@ In 2019, I asked the creation of the [RPGGeek ID (P7226)](https://www.wikidata.o
 
 In the folder `\data`, you will find some CSV dataset with a stable URL. 
 
-### [epigraph_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/epigraph_data.csv)
+#### - [epigraph_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/epigraph_data.csv)
 
-[Details here](https://zotrpg.blogspot.com/2020/08/epigraphs-in-ttrpgs-12.html). [Détails ici](https://jdr.hypotheses.org/1332).
+How the epigraphs are used in TTRPG games. [Details here](https://zotrpg.blogspot.com/2020/08/epigraphs-in-ttrpgs-12.html). [Détails ici](https://jdr.hypotheses.org/1332).
 
-### [publisher_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/publisher_data.csv)
+#### - [publisher_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/publisher_data.csv)
 
-Because all Wikidata items aren't indexed with a Publisher property.
+I made this table because all Wikidata items (games) aren't indexed with a Publisher property. This data fills partially the void.
 
-### [ceasendesist_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/ceasendesist_data.csv)
+#### - [ceasendesist_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/ceasendesist_data.csv)
 
 List of the Cease & Desist affairs I know of. [Details here](http://zotrpg.blogspot.com/2020/08/cease-desist-orders-and-citation.html). [Détails ici](https://jdr.hypotheses.org/1199). Maybe there is an impact on the citation practices.
 
