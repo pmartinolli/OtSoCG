@@ -1,8 +1,9 @@
 # Import ttrpg games and publishers from Wikidata, draw a nice circlized connection graph (the games are grouped by publishers)
 #
-# fancy colors and label orientations, still under construction because :
+# what to improve :
+#   - one node connection in the middle has to be removed
 #   - the label orientation doesnt work
-#   - I would like to color the connections with the color of the labels of the game (not game cited)
+#   - coloring the connections with the color of the labels of the games citing (not games cited). The color is the color of the publisher.
 
 ############# import data from Wikidata
 

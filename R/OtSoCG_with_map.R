@@ -1,16 +1,19 @@
+# Draw a network map of the games, weighted by the number of citations
+#
+# What to improve : 
+# - the palette colors
+# - having the same bubble color for the same publisher (or grey for publishers cited once)
+# - making the bubbles more far from each other
 
+
+######## Importing the data from Wikidata
 
 shell("cls") # clear console
-setwd("C:/Users/martinop/Downloads/ttrpg-r-gv")
-
 
 library(WikidataQueryServiceR) # calling of packages
 library(igraph)
 
-
 # Retrieve the data from Wikidata through SPARQL query and put in a variable named : ttrpg
-
-
 
 ttrpg <- query_wikidata('SELECT DISTINCT ?citingLabel ?citedLabel 
 WHERE
@@ -33,7 +36,7 @@ ORDER BY ?citing ?cited')
 
 
 
-
+####### mapping the citation network with the function 'map'
 
 
 #######################################################################
@@ -92,7 +95,7 @@ net <- graph_from_data_frame(d=ttrpg, directed=T)  # directed=F => no arrow head
 
 
 
-# Draw graph
+########### Drawing the graph
 
 plot(net, 
      edge.arrow.size = 0.05, 
@@ -102,6 +105,9 @@ plot(net,
      vertex.label.family="Helvetica"
 )
 
+
+
+# now, go the "Plot" panel of RStudio : Export > Save as PDF... > PDF size = 50x50 inches
 
 
 

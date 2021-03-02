@@ -1,6 +1,6 @@
 # Import ttrpg games and publishers from Wikidata, draw a nice circlized connection graph (the games are grouped by publishers)
 #
-# simple design, no colors, but no time limit
+# simple design, no colors
 
 ############# import data from Wikidata
 
