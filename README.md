@@ -19,7 +19,7 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 ---
 
-# [Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
+# [Hierarchical edge bundling graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_fancy.R)
 
