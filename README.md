@@ -30,7 +30,24 @@ A more simple version of the code can be [found here](https://github.com/pmartin
 [![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 ---
+# Wikidata
 
+## SPARQL Queries
+
+A dozen of [SPARQL queries are collected here](https://www.wikidata.org/wiki/User:Pmartinolli/OtSoCG) to extract data from Wikidata in CSV or JSON format.
+
+## Indexing guidelines
+
+Some guidelines at [WikiProject Board Games](https://www.wikidata.org/wiki/Wikidata:WikiProject_Board_Games) about improving TTRPG items.
+
+## Identifiers
+
+In 2019, I asked the creation of the [RPGGeek ID (P7226)](https://www.wikidata.org/wiki/Property:P7226). It would be nice to have an identifier for [LeGrog](http://www.legrog.org/), an awesome French TTRPG database.
+
+---
+
+
+---
 
 The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20cloud%20giants) (explication du projet [en français ici](https://jdr.hypotheses.org/1163)).
 
