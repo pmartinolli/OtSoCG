@@ -30,6 +30,12 @@ A more simple version of the code can be [found here](https://github.com/pmartin
 [![OtSoCG snapshot](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.png)](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 ---
+
+# Other data playing 
+
+On this [Google Colab](https://colab.research.google.com/drive/1gb9XBBNy3qniJ-aRlq1r_LtAue0wBNxy?usp=sharing), I am exploring the data I upload on Wikidata and merge it with my own local data on epigraphs and bibliographic items in TTRPG (available in the folder `\data`).
+
+---
 # Wikidata
 
 ## SPARQL Queries
@@ -46,18 +52,34 @@ In 2019, I asked the creation of the [RPGGeek ID (P7226)](https://www.wikidata.o
 
 ---
 
+# Local data on TTRPG
+
+In the folder `\data`, you will find some CSV dataset with a stable URL. 
+
+## [epigraph_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/epigraph_data.csv)
+
+[Details here](https://zotrpg.blogspot.com/2020/08/epigraphs-in-ttrpgs-12.html). [Détails ici](https://jdr.hypotheses.org/1332).
+
+## [publisher_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/publisher_data.csv)
+
+Because all Wikidata items aren't indexed with a Publisher property.
+
+## [ceasendesist_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/ceasendesist_data.csv)
+
+List of the Cease & Desist affairs I know of. [Details here](http://zotrpg.blogspot.com/2020/08/cease-desist-orders-and-citation.html). [Détails ici](https://jdr.hypotheses.org/1199). Maybe there is an impact on the citation practices.
 
 ---
 
-The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20cloud%20giants) (explication du projet [en français ici](https://jdr.hypotheses.org/1163)).
+The whole project is loosely [explained in my blog](http://zotrpg.blogspot.com/search/label/on%20the%20shoulders%20of%20cloud%20giants) (explications épisodiques du projet [sur mon blogue en français](https://jdr.hypotheses.org/1163)).
 
+---
 
 ## How to..
 
 ### ... Contribute
 
 * Improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID).
-* Improving the code (for beauty, clarity or structure). The details to improve are documented in the R code.
+* Improving the code (for beauty, clarity or structure). The specific details to improve each graphs are documented in the R code.
 
 ### ... Thank me
 
