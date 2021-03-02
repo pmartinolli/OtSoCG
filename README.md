@@ -23,7 +23,7 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_fancy.R)
 
-This code can be reused with an input any dataframe or table, of any size, structured like : citing | category | cited | category
+This code can be reused by providing a dataframe or a table, of any size, structured like : citing | category | cited | category
 
 A more simple version of the code can be [found here](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_simple.R).
 
@@ -40,7 +40,7 @@ The project is [explained here](http://zotrpg.blogspot.com/search/label/on%20the
 ### ... Contribute
 
 * Improving the data on Wikidata (especially the properties Publisher, Author and RPGGeek ID).
-* Improving the code (for beauty, clarity or structure).
+* Improving the code (for beauty, clarity or structure). The details to improve are documented in the R code.
 
 ### ... Thank me
 
