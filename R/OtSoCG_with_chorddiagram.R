@@ -1,7 +1,9 @@
 # Import ttrpg games and publishers from Wikidata, draw a nice circlized chord diagram graph (by publishers)
-# A significant part of citations are coming from other games of the same publisher
-
-
+# Drawing a chord diagram linking publishers with games that cite them
+#
+# what to improve:
+# - the palette colors
+#
 
 ############# import data from Wikidata
 
