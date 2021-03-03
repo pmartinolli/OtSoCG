@@ -1,6 +1,6 @@
 # On the Shoulders of Cloud Giants: Citation Practices in the Tabletop Role-Playing Game Publishing Industry
 
-Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974.
+Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974 to 2021.
 
 ## [Map graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
 
