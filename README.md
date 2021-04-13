@@ -2,7 +2,7 @@
 
 Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974 to 2021.
 
-## [Map graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
+## [Map graph of the games, weighted by citations](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_map.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_map.R)
 
@@ -10,7 +10,7 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 ---
 
-## [Chord diagram graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
+## [Chord diagram graph of the publishers](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_chorddiagram.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_chorddiagram.R)
 
@@ -19,7 +19,7 @@ Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPG
 
 ---
 
-## [Hierarchical edge bundling graph](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
+## [Hierarchical edge bundling graph of the games](https://github.com/pmartinolli/OtSoCG/blob/master/output/OtSoCG_with_geom_conn_bundle_fancy.pdf)
 
 [Code in R](https://github.com/pmartinolli/OtSoCG/blob/master/R/OtSoCG_with_geom_conn_bundle_fancy.R)
 
