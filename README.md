@@ -50,7 +50,7 @@ In the folder `\data`, you will find some CSV dataset with a stable URL.
 
 #### - [epigraph_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/epigraph_data.csv)
 
-How the epigraphs are used in TTRPG games. [Details here](https://zotrpg.blogspot.com/2020/08/epigraphs-in-ttrpgs-12.html). [Détails ici](https://jdr.hypotheses.org/1332).
+How the epigraphs are used in TTRPG games. [Details here](https://zotrpg.blogspot.com/2020/08/epigraphs-in-ttrpgs-12.html). [Détails ici](https://jdr.hypotheses.org/1332) et [ici](https://jdr.hypotheses.org/1401).
 
 #### - [publisher_data.csv](https://github.com/pmartinolli/OtSoCG/blob/master/data/publisher_data.csv)
 
