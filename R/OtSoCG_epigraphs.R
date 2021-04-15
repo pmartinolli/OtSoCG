@@ -21,12 +21,27 @@ most_forged
 
 most_citedworks <- sqldf("SELECT label,edition,nb_work FROM epigraph_tab 
       ORDER BY nb_work DESC 
-      LIMIT 20", row.names = TRUE)
+      LIMIT 10", row.names = TRUE)
 most_citedworks
 
 
 
-## Most common categories of cited works in TTRPGs 
+## TTRPGs with confusing mix of true and fictive epigraphs
+
+### counting
+confusing_mix_count <- sqldf("SELECT COUNT(confusing_mix)
+FROM epigraph_tab
+WHERE confusing_mix='x';", row.names = TRUE)
+confusing_mix_count
+
+### listing
+confusing_mix_list <- sqldf("SELECT label,edition
+      FROM epigraph_tab 
+      WHERE confusing_mix='x'
+      ORDER BY label ASC", row.names = TRUE)
+confusing_mix_list
+
+
 
 # creating a table with counting data on types of epigraphs
 
@@ -46,12 +61,8 @@ most_types <- matrix(c(sum(epigraph_tab$academic!="",na.rm = TRUE),
 colnames(most_types) <- c("Count")
 rownames(most_types) <- c("academic","literature","historical","music","religious","game","unknown","bd, comic, manga","cinema","videogame","franchise","confusing mix")
 
-#put in a table
-most_types <- as.table(most_types)   
-
-#or put in a dataframe?
-#most_types <- as.data.frame(most_types)
+#turn it in a dataframe
+most_types <- as.data.frame(most_types) 
 
 most_types
-
 
