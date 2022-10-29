@@ -1,4 +1,4 @@
-# On the Shoulders of Cloud Giants: Citation Practices in the Tabletop Role-Playing Game Publishing Industry
+# On the Shoulders of Cloud Giants: Citation Practices in the Tabletop Role-Playing Game Publishing 
 
 Combining Wikidata, SPARQL and R Studio to analyze the citation network of TTRPGs from 1974 to 2021.
 
@@ -111,7 +111,7 @@ Informations in the source code are pure facts, therefore they cannot be copyrig
 * Commments and collaborations are welcomed at / Commentaires et collaborations bienvenus : pascal.umontreal [at] gmail.com
 
 * How to cite the project in your academic work : 
-> Martinolli, Pascal. 2019. « On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing industry. » Dataset and R language code. https://github.com/pmartinolli/OtSoCG
+> Martinolli, Pascal. 2019. « On the Shoulders of Cloud Giants: citation practices in the tabletop role-playing game publishing. » Dataset and R language code. https://github.com/pmartinolli/OtSoCG
 
 \
 \
