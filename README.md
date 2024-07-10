@@ -6,7 +6,7 @@ Combining Wikidata, SPARQL and R Studio/Javascript to analyze and display of the
 ## Data wrangling in javascript 
 
 * UPDATE 2024-02-08 : The dataviz part of the project is currently developed in [Javascript on ObservableHQ](https://observablehq.com/@pascaliensis/on-the-shoulders-of-cloud-giants)
-
+* UPDATE 2024-07-10 : Citations among TTRPG blogs in [Python](https://github.com/pmartinolli/pyTTRPGblogScraping) & [JavaScript](https://observablehq.com/@pascaliensis/ttrpg-blog-communities-who-cites-who)
 
 
 ## Wikidata
